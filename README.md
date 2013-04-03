@@ -10,3 +10,6 @@ This learning repository contains a lot of fundamental concepts in code as follo
 * arrays
 * hashes 
 
+# Resources
+
+Ruby official documentation: http://ruby-doc.org/
