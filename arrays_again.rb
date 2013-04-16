@@ -52,4 +52,11 @@ puts "Total is : #{total}"
 lines.each { |line| total += line.to_i }
 
 puts "Total is : #{total}"
+lines.each do |line|
+  total += line.to_i
+end
+puts "Total is : #{total}"
+
+
+
 

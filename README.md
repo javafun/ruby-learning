@@ -13,3 +13,5 @@ This learning repository contains a lot of fundamental concepts in code as follo
 # Resources
 
 Ruby official documentation: http://ruby-doc.org/
+
+Need get more sample
