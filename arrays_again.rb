@@ -27,7 +27,7 @@ puts arr.class
 =end
 
 
-
+=begin
 lines = []
 user_line = " "
 total = 0
@@ -57,6 +57,23 @@ lines.each do |line|
 end
 puts "Total is : #{total}"
 
+=end
 
+words = %w[this is a test]
 
+words.each { |word| puts word}
 
+whites = %W(\s \t \r \n)
+
+whites.each { |white| puts white }
+
+# create an empty array
+empty = Array.new # returns a new empty array
+
+nils = Array.new(3) # [nil, nil, nil] : new array with 3 nil elements
+
+nils.each { |nilElement| puts nilElement }
+
+zeros = Array.new(0) # [0,0,0,0] : new array with 4 zeros elements
+
+zeros.each { |zero| puts zero }
